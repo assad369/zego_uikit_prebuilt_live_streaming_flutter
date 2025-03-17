@@ -60,6 +60,7 @@ class ZegoLiveStreamingInRoomMessageInputBoard extends ModalRoute<String> {
           ZegoInRoomMessageInput(
             placeHolder: translationText.messageEmptyToast,
             payloadAttributes: payloadAttributes,
+            textColor: Colors.black,
             onSubmit: () {
               Navigator.of(
                 context,
